@@ -1,18 +1,141 @@
-  <html>
-    <head>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
-    </head>
-      <body>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+</head>
+<body>
 
-        <div class="container">
-            <div class="row">
-               <div class="col-sm-6 col-md-4 col-md-offset-2"><p>If you see the output oin a laptop or desktop having screen or viewport width greater than or equal to 992px and less than 1200px you will find it has 4 rows where each row has 3 equal columns resulting in 3x4 grid layout.</p></div>
-               <div class="col-sm-6 col-md-4 col-md-offset-1"><p>f the above example </p></div>
-            </div>
-        </div>
-          <script type="text/javascript" src="js/jquery-1.12.3.js"></script>
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <div class="container">
+    <div class="row">
+      <div class="page-header">
+        <h1>Bootstrap Typography</h1>
+      </div>
 
-      </body>
-  </html>
+      <h2><ins>Header 2</ins></h2>
+      <h3 class="text-uppercase">LOWERCASE 3</h3>
+      <h4  class="text-lowercase">UPPERCASE 4</h4>
+      <h5 class="text-capitalize">hea der 5</h5>
+      <h6>Header 6</h6>
+
+
+      <p class="text-muted">Muted: This text is grayed out.</p>
+
+      <p class="text-primary">Important: Please read the instructions carefully before proceeding.</p>
+
+      <p class="text-success">Success: Your message has been sent successfully.</p>
+
+      <p class="text-info">Note: You must agree with the terms and conditions to complete the sign up process.</p>
+
+      <p class="text-warning">Warning: There was a problem with your network connection.</p>
+
+      <p class="text-danger">Error: An error has been occurred while submitting your data.</p>
+
+
+    </div>
+    <div class="row">
+      <div class="page-header">
+        <h1>Tables</h1>
+      </div>
+      <div class="col-md-6">
+        <table class="table table-bordered table-hover table-condensed">
+          <caption>User Details</caption>
+          <thead><tr>
+            <th>Row</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>John</td>
+            <td>Carter</td>
+            <td>johncarter@mail.com</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Peter</td>
+            <td>Parker</td>
+            <td>peterparker@mail.com</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>John</td>
+            <td>Rambo</td>
+            <td>johnrambo@mail.com</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="row">
+    <div class="page-header">
+      <h1>Unordered List</h1>
+    </div>
+    <div>
+      <div class="col-md-2">
+        <ul class="list-unstyled">
+          <li>Home</li>
+          <li>Products
+            <ul>
+              <li>Gadgets</li>
+              <li>Accessories</li>
+            </ul>
+          </li>
+          <li>About Us</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline">
+            <li>Home</li>
+            <li>Products</li>
+            <li>About Us</li>
+            <li>Contact</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+            <dl class="dl-horizontal">
+                <dt>User Agent</dt>
+                <dd>An HTML user agent is any device that interprets HTML documents.</dd>
+                <dt>Client-side Scripting</dt>
+                <dd>Client-side scripting generally refers to the category of computer programs on the web that are executed client-side i.e. by the user's web browser.</dd>
+                <dt>Document Tree</dt>
+                <dd>The tree of elements encoded in the source document.</dd>
+            </dl>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="page-header">
+      <h1>List Group</h1>
+    </div>
+    <div>
+      <div class="col-md-4">
+        <ul class="list-group">
+            <li class="list-group-item">Home</li>
+            <li class="list-group-item">Products</li>
+            <li class="list-group-item">About Us</li>
+            <li class="list-group-item">Contact</li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-group">
+            <a class="list-group-item active"> <span class="glyphicon glyphicon-home"></span> Home</a>
+            <a class="list-group-item"><span class="glyphicon glyphicon-tool"></span>Products</a>
+            <a class="list-group-item"><span class="glyphicon glyphicon-phone"></span>About Us</a>
+            <a class="list-group-item"><span class="glyphicon glyphicon-phone"></span>Contact</a>
+
+        </ul>
+      </div>
+      <div class="col-md-4">
+
+      </div>
+    </div>
+</div>
+</div>
+<script type="text/javascript" src="js/jquery-1.12.3.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
